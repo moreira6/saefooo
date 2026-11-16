@@ -1,20 +1,20 @@
-# Simulado de Língua Portuguesa - 5º ano
+# Simulado do 5º ano: Língua Portuguesa e Matemática
 
-Projeto estático pronto para publicar na Vercel.
+Projeto estático, responsivo e pronto para publicar na Vercel.
 
 ## Arquivos
-- `index.html`: estrutura da página
-- `style.css`: aparência responsiva
-- `app.js`: questões, navegação, correção e revisão
+- `index.html`: estrutura da aplicação.
+- `style.css`: estilos e layout responsivo.
+- `app.js`: questões, navegação, correção e resultado.
 
-## Publicar na Vercel
-1. Extraia o ZIP no computador.
-2. Crie um repositório no GitHub e envie os três arquivos para a raiz do repositório.
-3. Entre em https://vercel.com e faça login.
-4. Clique em **Add New → Project** e importe o repositório do GitHub.
-5. Como é um site estático, não precisa configurar framework, build command ou output directory. Clique em **Deploy**.
+## Como testar
+Abra `index.html` no navegador.
 
-Também é possível testar localmente abrindo `index.html` no navegador.
+## Como publicar na Vercel
+1. Envie os três arquivos (`index.html`, `style.css` e `app.js`) para um repositório GitHub.
+2. Na Vercel, escolha **Add New → Project**.
+3. Importe o repositório.
+4. Como é um site estático, não precisa de configuração de build. Deixe os campos de Build Command e Output Directory vazios, se a tela permitir, e clique em Deploy.
 
-## Observação
-O simulado corrige as respostas no navegador e mostra o resultado ao estudante. Ele não salva notas em banco de dados nem envia resultados para um painel de professor.
+## Observação pedagógica
+As 30 questões são autorais e inspiradas no formato de avaliações externas. Este material não é uma prova oficial do SAEGO. O resultado é calculado no navegador e não é armazenado em um painel do professor.
